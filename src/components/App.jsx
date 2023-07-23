@@ -7,8 +7,6 @@ import data from 'components/Statistic/data.json';
 import friends from 'components/FriendList/friends.json'
 import transactions from 'components/TransactionHistory/transactions.json'
 
-
-
 export const App = () => {
   return (
     <div className='container'>

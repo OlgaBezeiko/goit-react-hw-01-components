@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types';
 import style from './Statistic.module.css';
-import { getRandomColor } from './utils';
+import { getRandomColor } from './random';
 
 export const Statistic = ({ title, stats }) => {
   return (
@@ -8,7 +8,7 @@ export const Statistic = ({ title, stats }) => {
       <section className={style.statistics}>
       {title && <h2 className={style.title}>{title}</h2> }
         <ul 
-          className={title ? style.statList : style.statListOnly}>
+          className={title ? style.statisticList : style.statisticListMore}>
           {stats.map(stat => (
             <li
               className={style.item}

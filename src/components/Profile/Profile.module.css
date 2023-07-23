@@ -1,10 +1,11 @@
-.profile {
-  width: 375px;
-  margin-top: 32px;
+/* 
+ .profile {
+  width: 380px;
+  margin-top: 40px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: #fff;
+  background-color: #f2f2f2f2;
   border-radius: 5px;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
 }
@@ -21,20 +22,22 @@
   width: 50%;
   border-radius: 50%;
   object-fit: cover;
-  border: 4px solid #fff;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  border: 2px solid #fff;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
 }
 
 .name {
-  padding-top: 32px;
-  font-size: 24px;
+  padding-top: 20px;
+  font-size: 30px;
   font-weight: bold;
+  color: darkblue;
+  text-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
 }
 
 .tag {
-  padding-top: 12px;
-  font-size: 18px;
-  color: #999;
+  padding-top: 10px;
+  font-size: 20px;
+  color: #5e4f4f;
 }
 
 .location {
@@ -46,7 +49,7 @@
   display: flex;
   align-items: center;
   width: 100%;
-  border-top: 1px solid #999;
+  border-top: 1px solid #5e4f4f;
 }
 
 .followers {
@@ -54,13 +57,13 @@
   align-items: center;
   width: 100%;
   flex-direction: column;
-  background-color: #efebeb;
+  background-color: #7887b8;
 }
 
 .views {
   composes: followers;
-  border-right: 1px solid #999;
-  border-left: 1px solid #999;
+  border-right: 2px solid #5e4f4f;
+  border-left: 2px solid #5e4f4f;
 }
 
 .likes {
@@ -68,12 +71,84 @@
 }
 
 .label {
-  color: #999;
-  padding-top: 20px;
+  color: #11032c;
+  padding-top: 15px;
 }
 
 .quantity {
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 700;
-  padding-bottom: 20px;
+  padding-bottom: 10px;
+} */
+
+
+
+.profile {
+  width: 380px;
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f2f2f2f2;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.description {
+  padding-top: 32px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.avatar {
+  width: 50%;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid #0e0d0d;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+}
+
+.name {
+  padding-top: 20px;
+  font-size: 30px;
+  font-weight: bold;
+  color: darkblue;
+  text-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+}
+
+.tag {
+  padding-top: 10px;
+  font-size: 20px;
+  color: #5e4f4f;
+}
+
+.location {
+  padding-bottom: 32px;
+}
+
+.stats {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+  width: 100%;
+  border-top: 1px solid #5e4f4f;
+  padding: 20px 0;
+}
+
+.stats li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.stats .label {
+  font-weight: bold;
+}
+
+.stats .quantity {
+  font-size: 16px;
+  font-weight: 700;
+  padding-top: 10px;
 }

@@ -10,8 +10,8 @@ export const FriendListItem = ({ avatar, name, isOnline }) => {
         <img
           className={style.avatar}
           src={avatar}
-          alt="User avatar"
-          width="48"
+          alt="Avatar"
+          width="50"
         />
         <p className={style.name}>{name}</p>
       </li>
