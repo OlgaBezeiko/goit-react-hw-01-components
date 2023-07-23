@@ -1,4 +1,4 @@
-.transactionHistory {
+.main {
     width: 756px;
     margin-bottom: 30px;
     border-radius: 10px;
@@ -6,7 +6,7 @@
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
     }
   
-  .head {
+  .tabHead {
     background-color: #118b8b;
     text-transform: uppercase;
     font-weight: 700;
@@ -40,8 +40,8 @@
     background-color: #e7f0f3;
   }
   
-  .transactionHistory th,
-  .transactionHistory td {
+  .main th,
+  .main td {
     padding-top: 20px;
     padding-bottom: 20px;
   }

@@ -1,55 +1,3 @@
-/* .statistics {
-    width: 380px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: #fff;
-    border-radius: 5px;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
-  }
-  
-  .title {
-    text-transform: uppercase;
-    color: #757575;
-    padding-top: 32px;
-    padding-bottom: 32px;
-  }
-  
-  .statList {
-    display: flex;
-    align-items: center;
-    width: 100%;
-    overflow: hidden;
-    border-bottom-left-radius: 5px;
-    border-bottom-right-radius: 5px;
-    
-  }
-  
-  .statListOnly {
-    composes: statList;
-    border-radius: 5px;
-    
-  }
-  
-  .item {
-    display: flex;
-    align-items: center;
-    width: 100%;
-    flex-direction: column;
-    padding-top: 12px;
-    padding-bottom: 12px;
-  }
-  
-  .label {
-    color: #fff;
-  }
-  
-  .percentage {
-    composes: label;
-    font-size: larger;
-    font-weight: 700;
-  } */
-
 
   .statistics {
     width: 380px;
@@ -71,9 +19,9 @@
   
   .statisticList {
     display: flex;
-    align-items: center; /* Змінили flex на align-items для створення одного рядка */
+    align-items: center; 
     width: 100%;
-    overflow-x: auto; /* Додали горизонтальний скролл, якщо список виходить за межі */
+    overflow-x: auto;
     list-style: none;
     padding: 0;
   }
@@ -85,8 +33,8 @@
     padding: 12px;
     background-color: #4caf50;
     border-radius: 5px;
-    white-space: nowrap; /* Забороняємо перенесення тексту на новий рядок */
-    margin-right: 20px; /* Додали відступ між елементами списку */
+    white-space: nowrap; 
+    margin-right: 20px; 
   }
   
   .label {

@@ -5,8 +5,8 @@ export const TransactionHistory = ({items}) => {
    
   return (
     <>
-      <table className={style.transactionHistory}>
-        <thead className={style.head}>
+      <table className={style.main}>
+        <thead className={style.tabHead}>
           <tr>
             <th className={style.type}>Type</th>
             <th className={style.amount}>Amount</th>
